@@ -1,0 +1,48 @@
+*{
+  margin: 0px;
+ padding: 0px;
+  
+}
+
+
+.image{
+  background-image: url('/public/uiBack.jpg');
+  /* min-height: 100%; */
+  /* background: url('/public/uiBack.jpg') no-repeat center center fixed;  */
+  background-size:100%;
+  background-repeat: no-repeat;
+  height: 120.5vh;
+  width: 100%;
+}
+.smalldiv{
+  height: 5vh;
+  width: 2vw;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50%;
+}
+.tablewidth{
+  width: 60%;
+}
+.tablefullwidth{
+  width: 100%;
+}
+.pagediv>li{
+  height: 8vh;
+  width: 2vw;
+  display: inline-block;
+  padding-left: 3px;
+   /* border: 1px solid black;  */
+  /* background-color: white; */
+  /* border-radius: 50%;  */
+}
+.pagediv>li>a{
+  /* height: 8vh;
+  width: 2vw;
+  display: inline-block; */
+  padding-left: 3px;
+   /* border: 1px solid black;  */
+  /* background-color: white; */
+  /* border-radius: 50%;  */
+}
+
